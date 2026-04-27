@@ -216,10 +216,10 @@ const Navbar = () => {
           </div>
 
           {/* Mobile */}
-          <div className="md:hidden flex items-center gap-3">
+          <div className="md:hidden flex items-center gap-2 w-full ml-3">
             <div
               ref={mobileSearchRef}
-              className="relative flex items-center bg-(--secondary-accent-color) px-2 py-1"
+              className="relative flex flex-1 items-center bg-(--secondary-accent-color) px-3 py-2"
             >
               <Search />
               <input
@@ -332,8 +332,6 @@ const Navbar = () => {
                 {totalQty}
               </span>
             )}
-
-            <p className="text-xs font-semibold">Bag</p>
           </div>
         </NavLink>
 
